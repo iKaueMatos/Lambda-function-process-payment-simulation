@@ -1,0 +1,27 @@
+{
+  "name": "IKauê Dev",
+  "email": "ikaue.contato@gmail.com",
+  "phone": "+55 11 99999-9999",
+  "address": {
+    "street": "Rua das Flores",
+    "number": "123",
+    "neighborhood": "Centro",
+    "city": "Caieiras",
+    "state": "São Paulo",
+    "zipCode": "07700-000"
+  },
+  "amount": 20000,
+  "methodPayment": [
+    {
+      "method": "credit",
+      "amount": 10000,
+      "cardNumber": "**** **** **** 1234",
+      "installments": 3
+    },
+    {
+      "method": "debit",
+      "amount": 10000,
+      "cardNumber": "**** **** **** 5678"
+    }
+  ]
+}
